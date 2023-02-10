@@ -6,7 +6,7 @@ const Review = ({ review }) => {
         <div className="card shadow-xl">
             <div className="card-body">
 
-                <p>{userReview}</p>
+                <p className='font-semibold'>{userReview}</p>
                 <div className="flex item-center mt-6">
                     <div className="avatar mr-6">
                         <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">

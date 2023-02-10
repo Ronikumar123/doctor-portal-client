@@ -11,7 +11,8 @@ const Banner = () => {
             {
                 background: `url(${bg})`,
                 backgroundSize: 'cover',
-                backgroundRepeat:'no-repeat'
+                backgroundRepeat:'no-repeat',
+                backgroundPosition:'center',
             }
         }
        
@@ -28,14 +29,14 @@ const Banner = () => {
           <Typewriter
             options={{
               strings: [
-                "Welcomes to our Dental House !",
+                "Welcomes to our Dental House !!",
               ],
               autoStart: true,
               loop: true,
             }}
           />
         </h1>
-                    <p className="pb-6">We are glad that you have entrusted your dental health concerns to our skilled hands. We will make sure to provide the best possible healthcare to all our patients! Of course, we always complement our core services with a customer service oriented approach.</p>
+                    <p className="font-semibold pb-6">We are glad that you have entrusted your dental health concerns to our skilled hands. We will make sure to provide the best possible healthcare to all our patients! Of course, we always complement our core services with a customer service oriented approach.</p>
                     <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary border-none rounded-md text-white">Get Started</button>
                 </div>
             </div>

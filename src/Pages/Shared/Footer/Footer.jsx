@@ -4,30 +4,30 @@ import footer from '../../../assets/images/footer.png';
 
 const Footer = () => {
     return (
-      <footer className='pt-24'>
-          <div style={{background: `url(${footer})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundColor:'black'}}>
-            <div className='footer '>
-            <div>
-                <span className="footer-title">Services</span>
+      <footer className='pt-16 mt-20  bg-slate-200'>
+          <div style={{background: `url(${footer})`, backgroundPosition: 'center', backgroundSize: 'cover',}} >
+            <div className='footer grid justify-around pt-12 font-semibold'>
+            <div className='text-black'>
+                <span className="footer-title text-lg text-black">Services</span>
                 <Link to="/" className="link link-hover">Emergency Checkup</Link>
                 <Link to="/" className="link link-hover">Monthly Checkup</Link>
                 <Link to="/" className="link link-hover">Weekly Checkup</Link>
                 <Link to="/" className="link link-hover">Deep Checkup</Link>
             </div>
-            <div>
-                <span className="footer-title">ORAL HEALTH</span>
+            <div className='text-black'>
+                <span className="footer-title text-lg text-black">ORAL HEALTH</span>
                 <Link to="/" className="link link-hover">Fluoride Treatment</Link>
                 <Link to="/" className="link link-hover">Cavity Filling</Link>
                 <Link to="/" className="link link-hover">Teeth Whitening</Link>
             </div>
-            <div>
-                <span className="footer-title">OUR ADDRESS</span>
+            <div className='text-black'>
+                <span className="footer-title text-lg text-black">OUR ADDRESS</span>
                 <Link to="/" className="link link-hover">Dhanmondi-32,Dhaka</Link>
                 
             </div>
             </div>
-            <div className='text-center mt-32'>
-                <p>Copyright © 2023 -All right reserved by Dental House</p>
+            <div className='text-center text-white p-16'>
+                <p className='font-bold text-lime-500'>Copyright © 2023 <span className='text-orange-600'>-All right reserved by Dental House</span></p>
             </div>
         </div>
       </footer>

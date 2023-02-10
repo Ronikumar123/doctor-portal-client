@@ -9,23 +9,23 @@ const Testimonial = () => {
     const reviews =[
         {
             _id:1,
-            name:'Winson herry',
+            name:'Kabir Singh',
             img: people1  ,
-            review:'dldsljglsmg',
-            location: 'India'
+            review:'The staff was very friendly and helpful and the dentist was honest and straight forward. I have been to other dentists that exaggerated what my needs were in order to make more money.',
+            location: 'Bangladesh'
         },
         {
             _id:2,
-            name:'Winson herry',
+            name:'Priyanka Sarkar',
             img:  people2 ,
-            review:'dldsljglsmg',
-            location: 'India'
+            review:'Very friendly and professional Dental house.Dental house is very patient-friendly and professional. Great Care',
+            location: 'Bangladesh'
         },
         {
             _id:3,
             name:'Winson herry',
             img:  people3 ,
-            review:'dldsljglsmg',
+            review:'The best dental house I have ever experienced! Professional, courteous, and friendly staff made me feel like family… would highly recommend to anyone!!!',
             location: 'India'
         },
     ]
@@ -33,8 +33,8 @@ const Testimonial = () => {
         <section className='my-16'>
             <div  className='flex justify-between'>
                 <div>
-                    <h4 className='text-xl text-primary font-bold'>Testimonial</h4>
-                    <h2 className='text-4xl'>What Our Patients Says</h2>
+                    <h4 className='text-4xl text-primary font-bold'>Testimonial</h4>
+                    <h2 className='text-2xl'>What Our Patients Says</h2>
                  </div>
                  <figure>
                     <img className='w-28 lg:w-48' src={quote} alt="" />

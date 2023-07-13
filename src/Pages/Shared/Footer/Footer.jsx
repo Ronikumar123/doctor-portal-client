@@ -19,10 +19,12 @@ const Footer = () => {
                 <Link to="/" className="link link-hover">Fluoride Treatment</Link>
                 <Link to="/" className="link link-hover">Cavity Filling</Link>
                 <Link to="/" className="link link-hover">Teeth Whitening</Link>
+                <Link to="/" className="link link-hover">Teeth cleaning</Link>
             </div>
             <div className='text-black'>
                 <span className="footer-title text-lg text-black">OUR ADDRESS</span>
                 <Link to="/" className="link link-hover">Dhanmondi-32,Dhaka</Link>
+                <Link to="/" className="link link-hover">dentalhouse20@gmail.com</Link>
                 
             </div>
             </div>

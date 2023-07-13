@@ -2,6 +2,9 @@ import React from 'react';
 import fluoride from '../../../assets/images/fluoride.png'
 import cavity from '../../../assets/images/cavity.png'
 import whitening from '../../../assets/images/whitening.png'
+import cleaning from '../../../assets/images/cleaning.png'
+import canal from '../../../assets/images/canal.png'
+import venner from '../../../assets/images/veneer.png'
 import Service from './Service';
 
 const Services = () => {
@@ -23,6 +26,25 @@ const Services = () => {
             name: 'Teeth Whiting',
             description: 'Bleaching your teeth to make them whiter. It can not whiten your bright white, it can brighten the existing color by different shades.',
             img: whitening
+        },
+
+        {
+            id:4,
+            name: 'Teeth Cleaning',
+            description: 'Teeth cleaning is part of oral hygiene and involves the removal of dental plaque from teeth with the intention of preventing cavities (dental caries), gingivitis, and periodontal disease.',
+            img: cleaning
+        },
+        {
+            id:5,
+            name: 'Root Canal',
+            description: 'Root canal is a treatment to repair and save a badly damaged or infected tooth instead of removing it. The term "root canal" comes from cleaning of the canals inside a tooth root.',
+            img: canal
+        },
+        {
+            id:6,
+            name: 'Veneers Teeth',
+            description: 'Veneers are custom-made shells that fit over teeth to improve their appearance and create a beautiful smile.',
+            img: venner
         },
     ]
     return (

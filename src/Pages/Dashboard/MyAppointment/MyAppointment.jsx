@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 
 // const MyAppointment = () => {
 //     const { user } = useContext(AuthContext);
-//     const url = `http://localhost:5000/bookings?email=${user?.email}`;
+//     const url = `https://doctors-portal-server-three-rho.vercel.app/bookings?email=${user?.email}`;
 //     const { data: bookings = []} = useQuery({
 //         queryKey: ['bookings', user?.email],
 //         queryFn: async () =>{
@@ -54,7 +54,7 @@ import Typewriter from 'typewriter-effect';
 // };
 const MyAppointment =() =>{
     const {user} = useContext(AuthContext);
-    const url = `http://localhost:5000/bookings?email=${user?.email}`;
+    const url = `https://doctors-portal-server-three-rho.vercel.app/bookings?email=${user?.email}`;
     const { data: bookings = []} = useQuery({
         queryKey: ['bookings',user?.email],
         queryFn: async () =>{
